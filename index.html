@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -52,7 +52,7 @@
 
                                 <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
 
-                                <a href="#" class="font-medium text-green-600 hover:text-green-500">Log in</a>
+                                <a href="#contact" class="font-medium text-green-600 hover:text-gray-500">Contact</a>
                             </div>
                         </nav>
                     </div>
@@ -86,7 +86,7 @@
                                 <a href="#"
                                     class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
 
-                                <a href="#"
+                                <a href="#contact"
                                     class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Contact</a>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
             </div>
 
             <div
-                class="flex items-center justify-center w-full mt-2 duration-300 ease-in lg:h-96 lg:w-1/2 lg:hover:scale-110 lg:hover:cursor-pointer">
+                class="flex items-center justify-center w-full mt-2 duration-200 ease-in-out lg:h-96 lg:w-1/2 lg:hover:scale-110 lg:hover:cursor-pointer">
                 <img class="object-cover w-full max-w-2xl rounded-md lg:h-full" src="assets/img/7.png" alt="Portfolio">
             </div>
         </div>
@@ -291,19 +291,19 @@
                 <div class="absolute top-0 left-0 w-full h-screen overflow-hidden">
                     <section class='sezione-parallax'>
                         <div class="parallax">
-                          <div class="parallax__layer parallax__layer__1">
-                            <img src="./assets/img/parallax1.png?raw=true" />
-                          </div>
-                          <div class="parallax__layer parallax__layer__2">
-                            <img src="./assets/img/parallax2.png?raw=true" />
-                          </div>
-                          <div class="parallax__layer parallax__layer__3">
-                            <img src="./assets/img/parallax3.png?raw=true" />
-                          </div>
-                          <div class="parallax__layer parallax__layer__4">
-                            <img src="./assets/img/parallax4.png?raw=true" />
-                          <div class="parallax__cover"></div>
-                        </div>
+                            <div class="parallax__layer parallax__layer__1">
+                                <img src="./assets/img/parallax1.png?raw=true" />
+                            </div>
+                            <div class="parallax__layer parallax__layer__2">
+                                <img src="./assets/img/parallax2.png?raw=true" />
+                            </div>
+                            <div class="parallax__layer parallax__layer__3">
+                                <img src="./assets/img/parallax3.png?raw=true" />
+                            </div>
+                            <div class="parallax__layer parallax__layer__4">
+                                <img src="./assets/img/parallax4.png?raw=true" />
+                                <div class="parallax__cover"></div>
+                            </div>
                     </section>
                 </div>
                 <div class="pt-20 mx-4 max-w-7xl lg:mx-auto lg:pt-40">
@@ -354,7 +354,7 @@
             </div>
         </section>
 
-        <section class="pt-12 shadow-inner bg-gradient-to-b from-gray-100 to-white">
+        <section class="pt-12 shadow-inner bg-gradient-to-b from-gray-100 to-white" id="contact">
             <div class="relative mx-auto mb-24 max-w-7xl">
                 <div class="overflow-hidden lg:max-w-none lg:flex">
                     <div class="px-6 py-8 md:px-0 lg:flex-shrink-1">
@@ -395,8 +395,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-grow w-full h-full min-h-full pl-24 md:w-1/2">
-                        <div id="map" class="rounded-lg" style="min-height: 40vh; height: 100%;">
+                    <div class="flex-grow w-full h-full min-h-full pb-4 pl-24 md:w-1/2">
+                        <div id="map" class="mb-4 rounded-lg" style="min-height: 40vh; height: 100%;">
                         </div>
                     </div>
                 </div>
@@ -409,7 +409,7 @@
                 container: 'map',
                 style: 'mapbox://styles/mapbox/satellite-streets-v11',
                 center: [6.218, 44.169],
-                zoom: 12,
+                zoom: 11,
                 localIdeographFontFamily: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
             });
         </script>
