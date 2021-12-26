@@ -22,7 +22,7 @@
         }
     </style>
     <section class="relative min-h-screen bg-white">
-        <div class="mx-auto max-w-7xl">
+        <div class="mx-auto">
             <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
                 <svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block"
                     fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
@@ -36,7 +36,7 @@
                                 <div class="flex items-center justify-between w-full md:w-auto">
                                     <a href="/">
                                         <span class="sr-only">LB Debroussaillage</span>
-                                        <img class="w-auto h-8 sm:h-10" src="assets/img/brand.png">
+                                        <img class="w-auto h-8 sm:h-10 lg:h-12 xl:h-16" src="assets/img/brand.png">
                                     </a>
                                     <div class="flex items-center -mr-2 md:hidden">
                                         <button type="button" onclick="toggleNav()"
@@ -53,7 +53,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8 2xl:text-xl">
                                 <a href="/" class="font-medium text-green-500 hover:text-gray-500">Accueil</a>
 
                                 <a href="#experience"
@@ -108,20 +108,22 @@
         <div class="container flex flex-col px-6 py-4 mx-auto lg:flex-row lg:h-128 lg:py-16 ">
             <div class="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
                 <div class="max-w-lg">
-                    <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl xl:text-6xl">
+                    <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 lg:text-5xl 2xl:text-6xl">
                         <span>LB</span>&nbsp;<span class="text-green-500">Debroussaillage</span>
-                        <div class="xl:-mt-3"></div>
-                        <span class="block text-3xl xl:inline">Fait place nette</span>
-                        <span class="block text-3xl text-green-500 xl:inline">où les autres s'arrêtent</span>
+                        <p class="mt-2 text-2xl 2xl:text-4xl">Fait place nette
+                            <span class="text-green-500">
+                                où les autres s'arrêtent
+                            </span>
+                        </p>
                     </h1>
-                    <p class="mt-4 text-gray-300 text-gray-600">Lorem ipsum, dolor sit amet consectetur
+                    <p class="mt-4 text-gray-300 text-gray-600 2xl:text-xl">Lorem ipsum, dolor sit amet consectetur
                         adipisicing elit. Aut quia asperiores alias vero magnam recusandae adipisci ad vitae
                         laudantium quod rem voluptatem eos accusantium cumque.</p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <div class="rounded-md shadow">
                             <a href="#contact"
                                 class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-green-500 border border-transparent rounded-md hover:bg-green-700 md:py-4 md:text-lg md:px-10">
-                                Nous contacter
+                                Contacter
                             </a>
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
@@ -184,7 +186,7 @@
             </div>
 
             <div
-                class="flex items-center justify-center w-full h-full mt-2 duration-200 ease-in-out sm:mx-auto md:h-96 hover:scale-110 hover:cursor-pointer">
+                class="flex items-center justify-center w-full h-full mt-2 duration-200 ease-in-out sm:mx-auto md:h-96 2xl:h-2/3 hover:scale-110 hover:cursor-pointer">
                 <img class="object-cover w-full h-full max-w-2xl rounded-md" src="assets/img/7.png" alt="Portfolio">
             </div>
         </div>
@@ -208,8 +210,8 @@
                                     class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-gray-500 rounded-full bg-gray-50">1</span>
                             </div>
                             <div class="px-4">
-                                <h3 class="my-4 text-xl font-semibold">Des terrains à forte pente</h3>
-                                <p class="leading-loose text-gray-500">
+                                <h3 class="my-4 text-xl font-semibold xl:text-3xl">Des terrains à forte pente</h3>
+                                <p class="leading-loose text-gray-500 xl:text-xl">
                                     Nous avons l'habitude des pentes fortes, et chemins escarpés.
                                 </p>
                             </div>
@@ -219,8 +221,8 @@
                                     class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-gray-500 rounded-full bg-gray-50">2</span>
                             </div>
                             <div class="px-4">
-                                <h3 class="my-4 text-xl font-semibold">Des terrains difficiles d'accès</h3>
-                                <p class="leading-loose text-gray-500">
+                                <h3 class="my-4 text-xl font-semibold xl:text-3xl">Des terrains difficiles d'accès</h3>
+                                <p class="leading-loose text-gray-500 xl:text-xl">
                                     Le broyeur intégré à la machine déblaye la faune et la flore qui gêne l'accès.
                                 </p>
                             </div>
@@ -230,15 +232,17 @@
                                     class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-gray-500 rounded-full bg-gray-50">3</span>
                             </div>
                             <div class="px-4">
-                                <h3 class="my-4 text-xl font-semibold">Une efficacité de grade industriel</h3>
-                                <p class="leading-loose text-gray-500">Notre machine dernier-cri LV800 assure un
+                                <h3 class="my-4 text-xl font-semibold xl:text-3xl">Une efficacité de grade industriel
+                                </h3>
+                                <p class="leading-loose text-gray-500 xl:text-xl">Notre machine dernier-cri LV800 assure
+                                    un
                                     travail réalisé plus efficacement que les machines conventionnelles.</p>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="hidden lg:block lg:w-1/2">
-                    <svg id="visual" viewBox="250 0 900 600" width="50%" height="100vh"
+                    <svg class="md:-translate-x-10" id="visual" viewBox="0 0 900 600" width="50%" height="100vh"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
                         <rect x="0" y="0" width="900" height="600" fill="#FFFFFF"></rect>
                         <path
@@ -281,7 +285,7 @@
                 <div class="pt-24 mx-auto">
                     <div class="flex flex-wrap justify-around w-full">
                         <div
-                            class="relative w-11/12 mx-auto mb-32 cursor-pointer xl:w-1/3 sm:w-5/12 sm:max-w-xs lg:mb-20 xl:max-w-sm lg:w-1/2 sm:mx-0 hover:scale-105">
+                            class="relative w-11/12 mx-auto mb-32 cursor-pointer xl:w-1/3 sm:w-5/12 sm:max-w-xs lg:mb-20 xl:max-w-sm 2xl:max-w-mdlg:w-1/2 sm:mx-0 hover:scale-105">
                             <div class="z-20 h-64"><img src="assets/img/1.png" alt="Proident pariatur est."
                                     class="object-cover w-full h-full overflow-hidden rounded" width="400" height="300">
                             </div>
